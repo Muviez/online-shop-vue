@@ -24,6 +24,7 @@ export default {
   methods: {
     SendDataToParent() {
       this.$emit('send-data-to-parent', this.product_data.article)
+      console.log(123)
     }
   }
 }
